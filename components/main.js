@@ -7,14 +7,13 @@ import { connect } from 'react-redux';
 import { addUserInfo } from '../redux/actionCreators';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import SignUp from '../screen/signup';
+import Home from '../screen/home';
 
 const Stack = createStackNavigator();
 
 const HomeScreen = ({ navigation }) => {
     return (
-        <View>
-            <Text>HomeScreen</Text>
-        </View>
+        <Home />
     );
 }
 
